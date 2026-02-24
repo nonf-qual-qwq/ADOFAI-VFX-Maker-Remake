@@ -234,7 +234,6 @@ class MainWindow(QMainWindow):
             # 捕获所有异常并提示用户
             QMessageBox.critical(self, "生成失败", f"生成过程出错：\n{str(e)}")
 
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
